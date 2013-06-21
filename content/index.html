@@ -1,22 +1,164 @@
----
-title: Home
----
+<div class="container-fluid" style="background-color: #2168A6;" id="about">
+  <div class="container" style="background-color: #2a333c; padding: 10px;">
+    <div class="row-fluid">
+      <div class="span4 offset4">
+        <img src="/assets/summit-logo.png" style="max-width: 100%;">
+      </div>
+      <div class="span12">
+        <p class="lead">
+          The openSUSE Summit (<a href="https://twitter.com/search?q=%23ossum13">#oSSum13</a>) brings together a wide variety of Open Source contributors to collaborate on one of the major Linux distribution projects. In three exciting days of workshops and social happenings we bring alive our slogan "Have a lot of fun". oSSum13 takes place <em>November 15-17, 2013</em> following <a href="http://www.susecon.com">SUSEcon</a> , our main sponsors' yearly conference. Registrations finalized before November 1st include free admission to Technology Showcase and Keynotes of SUSECon on Friday November 15.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
 
-<!-- Start: Main Content Area -->
-<h2 class="box-header">Latest News <a href="feed.xml" target="_blank"> <img src ="/images/feed.png" width="20" height="20" /> </a></h2>
-<% english_articles[0..5].each do |article| %>
+<div class="container-fluid" style="background-color: #1BAFBF;" id="program">
+  <div class="container" style="background-color: #2a333c; padding: 10px;">
+    <div class="row-fluid">
+      <div class="span12">
+        <h1>Program</h1>
+        <p>
+          The oSSum13 program will include keynotes, talks, workshops and a lot of fun. 
+        </p>
+        <h3>Schedule</h3>
+          <p>
+            Detailed information about the sessions will be published here as we get closer to the event. 
+          </p>
+          <ul class="nav nav-tabs">
+            <li><a href="#friday" data-toggle="tab" class="active">Friday</a></li>
+            <li><a href="#saturday" data-toggle="tab">Saturday</a></li>
+            <li><a href="#sunday" data-toggle="tab">Sunday</a></li>
+          </ul>
+          <div class="tab-content">
+            <div class="tab-pane active" id="friday">
+              <table class="table table-hover">
+                <tr>
+                  <th width="8%">Time</th>
+                  <th>Event</th>
+                </tr>
+                <tr>
+                  <td>13:00</td><td>Registration Desk opens</td>
+                </tr>
+                  <td>14:00</td><td>Sessions (To be announced)</td>
+                </tr>
+                <tr>
+                  <td>17:00</td><td>End</td>
+                </tr>
+              </table>
+            </div>
+          <div class="tab-pane" id="saturday">
+            <table class="table table-hover">
+              <tr>
+                <th width="8%">Time</th>
+                <th>Event</th>
+              </tr>
+              <tr>
+                <td>08:00</td><td>Breakfast</td>
+              </tr>
+              <tr>
+                <td>09:15</td><td>Keynote</td>
+              </tr>
+              <tr>
+                <td>10:15</td><td>Sessions (To be announced)</td>
+              </tr>
+              <tr>
+                <td>12:00</td><td>Lunch</td>
+              </tr>
+              <tr>
+                <td>13:15</td><td>Sessions (To be announced)</td>
+              </tr>
+              <tr>
+                <td>17:00</td><td>Ad Hoc Sessions</td>
+              </tr>
+              <tr>
+                <td>19:00</td><td>End</td>
+              </tr>
+            </table>
+          </div>
+          <div class="tab-pane" id="sunday">
+            <table class="table table-hover">
+              <tr>
+                <th width="8%">Time</th>
+                <th>Event</h>
+              </tr>
+              <tr>
+                <td>08:00</td><td>Breakfast</td>
+              </tr>
+              <tr>
+                <td>09:15</td><td>Sessions (To be announced)</td>
+              </tr>
+              <tr>
+                <td>12:00</td><td>Lunch</td>
+              </tr>
+              <tr>
+                <td>13:15</td><td>Town Hall Meeting</td>
+              </tr>
+              <tr>
+                <td>15:00</td><td>End</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <h3>Social Events</h3>
+          <p>
+              Geekos are a hard-working, fun-loving bunch.  But even Geekos need a break to socialize and get some food in their bellies.  That's why we bring you the Geeko Lounge.  A place to relax, put your feet up and hang out with fellow Geekos. Each morning we serve breakfast, throughout the day, we'll have refreshments to quench your thirst and nibble on. Couches and bean bags to plop your dupa on as you take a breather from the hustle and bustle of the busy day checking out sessions. We are also planning to add a party or two, thus check back to get the latest info.
+          </p>
+        </div>
+      </div>
+    </div>
+</div>
 
-<h1> <%= article[:title] %> </h1>
-<p align="right"> Published at : <%= article[:created_at] %></p>
-<p><%= article[:excerpt]  %> ... </p>
-<p align="right"> 
-<% if article[:title] == "Summit Exclusive: Go Home A Guru!"%>
-<%= link_to("Here's how it works . . .", article.path) %> </p>
-<% else %>
-<%= link_to("Read more . . .", article.path) %> </p>
-<% end %>
-<hr>
-<% end %>
+<div class="container-fluid" style="background-color: #21BFBF;" id="location">
+  <div class="container" style="background-color: #2a333c; padding: 10px;">
+    <div class="row-fluid">
+      <div class="span12">
+      <h1>Location</h1>
+      <p>
+        The openSUSE Summit will be held November 15-17, 2013 in beautiful sunny (we hope!) Lake Buena Vista just outside of Orlando, Florida. <a href="https://disneyworld.disney.go.com/resorts/coronado-springs-resort/">Disney's Coronado Springs Resort</a> will welcome all Geekos to this years event. At the Disney Resort you are located right next door to one of the greatest attractions in Orlando. But Orlando has more to offer than Disney World, it is also home to Sea World, Universal Studios and the Kenedy Space center is only abou 60 miles away. If you are interested in the various attractions you might want to check out an <a href="http://www.google.com/#hl=en&amp;sugexp=frgbld&amp;gs_nf=1&amp;cp=11&amp;gs_id=1q&amp;xhr=t&amp;q=orlando+pass&amp;pf=p&amp;output=search&amp;sclient=psy-ab&amp;oq=orlando+pas&amp;aq=&amp;aqi=&amp;aql=&amp;gs_l=&amp;pbx=1&amp;bav=on.2,or.r_gc.r_pw.r_qf.,cf.osb&amp;fp=9510cb7298f7c9c3&amp;biw=1267&amp;bih=840">Orlando city pass.</a>
+      </p>
+      <h3> Travel &amp; Accommodations </h3>
+      <address>
+        <strong>Caribe Royal Hotel</strong><br>
+        1000 W Buena Vista Drive<br>
+        Lake Buena Vista, FL 32830-8403<br>
+        <abbr title="Phone">Phone:</abbr> (407) 939-1000 
+     </address>
+     <p>
+        In collaboration with SUSECon, a discount for hotel room reservations is available. Click <a href="http://www.disneynow.com/profile/web/index.cfm?PKwebID=0x43473b60a">here</a> to reserve today! And if you want to share a room with a fellow geeko, either for fun, to save some $$ or both, use our <a href="http://en.opensuse.org/openSUSE:Summit_room_board">Room Board page</a> on the openSUSE wiki.
+      </p>
+      <h3>Airport</h3>
+      <ul>
+        <li>Kissimmee Gateway Airport (ISM) - 12  miles</li>
+        <li>Orlando Intl. Airport (MCO) - 20  miles</li>
+      </ul>
+      <p>
+        Disney offers complimentary Bus transportation to and from Orlando International Airport. You will need to reserve your seat on the bus accoring to the <a href="https://disneyworld.disney.go.com/planning-guides/in-depth-advice/airport-service/">published guidelines</a>. If you would rather not ride on the "Magical Express, but who would want to miss that experience there is also a way to get to the resort using <a href="http://www.google.com/maps?saddr=Orlando+International+Airport,+Orlando,+FL&amp;daddr=Coronado+Springs,+West+Buena+Vista+Drive,+Lake+Buena+Vista,+FL&amp;hl=en&amp;ll=28.370974,-81.568594&amp;spn=0.020278,0.026479&amp;sll=28.363636,-81.5736&amp;sspn=0.010139,0.013239&amp;geocode=FRfVsQEdglUn-yFt4RGUNrlKrSnzkrTGJ2PniDFt4RGUNrlKrQ%3BFTLEsAEdvUsj-yHj1UjBHGN28ymvB5VN9n7diDHj1UjBHGN28w&amp;oq=Orlando&amp;dirflg=r&amp;ttype=now&amp;noexp=0&amp;noal=0&amp;sort=def&amp;mra=ltm&amp;t=m&amp;z=15&amp;start=0">public transportation</a>.
+      </p>
+      <h3>Alternate Transportation:</h3>
+        <ul>
+          <li><a href="http://amtrak.com" target="_blank"> Amtrak Rail</a></li>
+          <li><a href="http://greyhound.com" target="_blank"> Greyhound Bus </a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
 
-
-<!-- End: Main Content Area -->
+<div class="container-fluid" style="background-color: #F2DEC4;"  id="press">
+  <div class="container" style="background-color: #2a333c; padding: 10px;">
+    <div class="row-fluid">
+      <div class="span12">
+        <h1>Press</h1>
+        <p>
+          The openSUSE Summit will feature a press room suitable for interviews. Please let us know if you would like to make use of this facility. We will also hold a press conference with the keynote speakers as well as people from the openSUSE Board. If you would like more information, please contact the openSUSE community manager
+        </p>
+        <address>
+          <strong>Jos Poortvliet</strong><br>
+          <abbr title="Phone">Phone:</abbr> +49 (0) 173 587 6834<br>
+          <abbr title="Email">Mail:</abbr> <a href="mailto:jos@opensuse.org">jos@opensuse.org</a>
+        </address>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,4 +1,7 @@
-.redcar/
-
 output/*
+site/
 .DS_Store
+.directory
+tmp/*
+crash.log
+config.yaml
