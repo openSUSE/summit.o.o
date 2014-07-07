@@ -1,58 +1,85 @@
 <!DOCTYPE HTML>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
-    <title>openSUSE Summit, NOV 15-17, 2013, Lake Buena Vista, Florida</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
-    <link href="/assets/bootstrap/css/bootstrap-responsive.css" rel="stylesheet" media="screen">
-    <link rel="stylesheet" href="/style.css">
     <meta name="generator" content="nanoc <%= Nanoc::VERSION %>"> 
-  </head>
-  <body>
-    
-    <div class="navbar">
-      <div class="navbar-inner">
-        <div class="container">
-          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </a>
-          <span class="brand"><img src="/assets/img/header-logo.png">Summit</span>
-          <div class="nav-collapse">
-            <ul class="nav">
-              <li><a href="#program">Program</a></li>
-              <li><a href="#tickets">Tickets</a></li>
-              <li><a href="#location">Location</a></li>
-              <li><a href="#registration">Register</a></li>
-              <li><a href="#cfp">CfP</a></li>
-              <li><a href="#conduct">CoC</a></li>
-            </ul>
-          </div><!-- /nav-collapse -->
-        </div><!-- /container -->
-      </div><!-- /navbar-inner -->
-    </div><!-- /navbar -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
+    <title>openSUSE Asia Summit, Oct 2014, Beihang University, Beijing</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="assets/bootstrap/css/bootstrap.css" rel="stylesheet" media="screen">
+
+    <!-- Fonts -->
+    <link href="assets/bootstrap/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css">
+    <link href='assets/bootstrap/fonts/lora.css' rel='stylesheet' type='text/css'>
+    <link href='assets/bootstrap/fonts/montserrat.css' rel='stylesheet' type='text/css'>
+
+    <!-- Custom Theme CSS -->
+    <link href="assets/bootstrap/css/grayscale.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-custom">
+  
+  <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
     <div class="container">
-      <%= yield %>
-    </div>
+      <div class="navbar-header page-scroll">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+          <i class="fa fa-bars"></i>
+        </button>
+        <a class="navbar-brand" href="#page-top">
+          <i class="fa fa-play-circle"></i>  <span class="light">openSUSE.Asia</span>
+        </a>
+      </div>
 
-    <script src="http://code.jquery.com/jquery.js"></script>
-    <script src="/assets/bootstrap/js/bootstrap.min.js"></script>
-    <!-- Piwik --> 
-    <script type="text/javascript">
-    var pkBaseURL = (("https:" == document.location.protocol) ? "https://beans.opensuse.org/piwik/" : "http://beans.opensuse.org/piwik/");
-    document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
-    </script>
-    <script type="text/javascript">
-      try {
-        var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 21);
-        piwikTracker.trackPageView();
-        piwikTracker.enableLinkTracking();
-      } catch( err ) {}
-    </script>
-    <noscript><p><img src="http://beans.opensuse.org/piwik/piwik.php?idsite=21" style="border:0" alt="" /></p></noscript>
-    <!-- End Piwik Tracking Code -->
-  </body>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+        <ul class="nav navbar-nav">
+          <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+          <li class="hidden">
+              <a href="#page-top"></a>
+          </li>
+          <li class="page-scroll">
+              <a href="#about">About</a>
+          </li>
+          <li class="page-scroll">
+              <a href="#cfp">CfP</a>
+          </li>
+          <li class="page-scroll">
+              <a href="#artwork">Artwork</a>
+          </li>
+          <li class="page-scroll">
+              <a href="#sponsor">Sponsor</a>
+          </li>
+          <li class="page-scroll">
+              <a href="#venue">Venue</a>
+          </li>
+          <li class="page-scroll">
+              <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+          <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+  </nav>
+
+  <%= yield %>
+
+  <div id="footer">Background photo from <a href="https://flic.kr/p/83tPiu" target="_blank">Sam Gao</a></div>
+
+  <!-- Core JavaScript Files -->
+  <script src="assets/bootstrap/js/jquery.min.js"></script>
+  <script src="assets/bootstrap/js/bootstrap.js"></script>
+  <script src="assets/bootstrap/js/jquery.easing.min.js"></script>
+
+  <!-- Custom Theme JavaScript -->
+  <script src="assets/bootstrap/js/grayscale.js"></script>
+
+</body>
+
 </html>
