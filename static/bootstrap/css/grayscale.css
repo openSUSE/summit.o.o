@@ -250,6 +250,11 @@ a:focus {
     padding-top: 100px;
 }
 
+.content-section .row ol,
+.content-section .row ul {
+    font-size: 16px;    
+}
+
 .download-section {
     width: 100%;
     padding: 50px 0;
@@ -285,6 +290,10 @@ a:focus {
 @media(min-width:767px) {
     .content-section {
         padding-top: 250px;
+    }
+    .content-section .row ol,
+    .content-section .row ul {
+        font-size: 18px;    
     }
 
     .download-section {
