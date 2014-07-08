@@ -43,7 +43,8 @@ p {
 }
 
 a {
-    color: #28c3ab;
+    /*color: #28c3ab;*/
+    color: #ffff66;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -52,7 +53,8 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #176e61;
+    /*color: #176e61;*/
+    color: #fcae1b;
 }
 
 .light {
@@ -169,6 +171,7 @@ a:focus {
 
     .intro-text {
         font-size: 30px;
+        font-weight: bold;
     }
 }
 
