@@ -318,6 +318,9 @@ a:focus {
     #sponsor.content-section {
         padding-top: 80px;
     }
+    #single-page.content-section {
+        padding-top: 120px;
+    }
 
     .content-section .row ol,
     .content-section .row ul {
