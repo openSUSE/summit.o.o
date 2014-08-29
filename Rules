@@ -17,7 +17,7 @@ compile '/stylesheet/' do
   # don’t filter or layout
 end
 
-compile '/call4logo/*' do 
+compile '/call4*/*' do 
   rep.layout 'rootnav'
 end
 
