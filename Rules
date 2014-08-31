@@ -17,6 +17,10 @@ compile '/stylesheet/' do
   # don’t filter or layout
 end
 
+compile '/call4*/*' do 
+  rep.layout 'rootnav'
+end
+
 compile '*' do
   if item.binary?
     # don’t filter binary items
