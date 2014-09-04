@@ -175,6 +175,18 @@ a:focus {
     font-size: 20px;
     font-weight: 700;
 }
+.promote-text {
+    font-size: 36px;
+    font-weight: 800;
+    text-shadow: 2px 2px #e35001;
+}
+/*
+.promote-text a,
+.promote-text a:hover,
+.promote-text a:focus {
+    color: #fcae1b;
+}
+*/
 
 @media(min-width:767px) {
     .intro {
