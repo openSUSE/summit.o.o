@@ -440,3 +440,10 @@ body {
 .block-90 {
     line-height: 90px;
 }
+
+#osa14 {
+   width: 256px;
+   height: 256px;
+   margin-bottom: 30px;
+   border-radius: 15px;
+}
