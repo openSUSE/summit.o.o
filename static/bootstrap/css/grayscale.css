@@ -327,7 +327,7 @@ a:focus {
     .content-section {
         padding-top: 250px;
     }
-    #sponsor.content-section {
+    #spr.content-section {
         padding-top: 80px;
     }
     #single-page.content-section {
@@ -429,7 +429,7 @@ body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
 
-.sponsor-block {
+.spr-block {
     color: #000;
     background: #EDEDED;
     border: 5px solid  #4C4466;
@@ -439,4 +439,16 @@ body {
 }
 .block-90 {
     line-height: 90px;
+}
+
+#osa14 {
+   width: 256px;
+   height: 256px;
+   margin-bottom: 30px;
+   border-radius: 15px;
+}
+
+.venue-ls {
+   margin-top: -10px;
+   margin-bottom: 20px;
 }
