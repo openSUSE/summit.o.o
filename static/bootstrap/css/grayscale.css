@@ -330,6 +330,9 @@ a:focus {
     #spr.content-section {
         padding-top: 80px;
     }
+    #venue.content-section {
+        padding-top: 150px;
+    }
     #single-page.content-section {
         padding-top: 120px;
     }
