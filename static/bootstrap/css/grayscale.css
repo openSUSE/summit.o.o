@@ -330,7 +330,8 @@ a:focus {
     #spr.content-section {
         padding-top: 80px;
     }
-    #venue.content-section {
+    #venue.content-section,
+    #schedule.content-section {
         padding-top: 150px;
     }
     #single-page.content-section {
@@ -454,4 +455,7 @@ body {
 .venue-ls {
    margin-top: -10px;
    margin-bottom: 20px;
+}
+.venue-ls .lismall {
+   font-size: 14px;
 }
