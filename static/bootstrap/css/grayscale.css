@@ -330,11 +330,11 @@ a:focus {
     #spr.content-section {
         padding-top: 80px;
     }
-    #venue.content-section,
-    #schedule.content-section {
+    #venue.content-section {
         padding-top: 150px;
     }
-    #single-page.content-section {
+    #single-page.content-section,
+    #schedule.content-section {
         padding-top: 120px;
     }
 
@@ -459,3 +459,39 @@ body {
 .venue-ls .lismall {
    font-size: 14px;
 }
+
+#schedule table,
+#schedule table tr,
+#schedule table tr th,
+#schedule table tr td {
+    border-style: solid;
+    padding: 5px;
+}
+
+#schedule table thead,
+#schedule table th,
+#schedule table .cross_room {
+    text-align: center;
+}
+
+#schedule table thead {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#schedule table .sch_ws {
+   background-color: #e35001;
+}
+#schedule table .sch_lt {
+   background-color: #5082ff;
+}
+#schedule table .sch_st {
+   background-color: #227808;
+}
+#schedule table .sch_lit {
+   background-color: #8c0000;
+}
+#schedule table .sch_ot {
+   background-color: #2e3436;
+}
+
