@@ -504,3 +504,9 @@ body {
    display: block;
    padding-top: 70px;
 }
+
+.lang {
+   #color: #9c84eb;
+   font-weight: bold;
+   font-style: italic;
+}
