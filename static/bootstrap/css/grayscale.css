@@ -495,3 +495,18 @@ body {
    background-color: #2e3436;
 }
 
+.spintro h4 {
+   font-size: 20px;
+   margin-top: 40px;
+   margin-bottom: 10px;
+}
+.spintro h4 a {
+   display: block;
+   padding-top: 70px;
+}
+
+.lang {
+   #color: #9c84eb;
+   font-weight: bold;
+   font-style: italic;
+}

@@ -21,6 +21,10 @@ compile '/call4*/*' do
   rep.layout 'rootnav'
 end
 
+compile '/speakers/*' do 
+  rep.layout 'rootnav'
+end
+
 compile '*' do
   if item.binary?
     # don’t filter binary items
